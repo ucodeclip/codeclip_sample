@@ -19,11 +19,7 @@
     canvas.width = winW;
     canvas.height = winH;
 
-    //桜の初期位置
-    positionX = winW/2;
-    positionY = 0;
-
-    sakura = new Sakura(ctx,winH,winW,positionX,positionY);
+    sakura = new Sakura(ctx,winH,winW);
   }
 
   function render(){
