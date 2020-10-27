@@ -23,10 +23,6 @@
     canvas.width = winW;
     canvas.height = winH;
 
-    //桜の初期位置
-    positionX = winW/2;
-    positionY = 0;
-
     //numの数だけループ
     for(let i = 0; i < num; i++){
       sakuras.push(new Sakura(ctx,winH,winW));
